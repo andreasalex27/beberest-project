@@ -211,7 +211,7 @@ h1 span {
   }
   .hero-heading,
   .hero-image {
-    flex-basis: 50vh;
+    flex-basis: 390px 390px;
     background-color: #ff0000;
   }
 
