@@ -154,6 +154,10 @@ h1 span {
   /* background-color: aliceblue; */
 }
 
+.content {
+  height: 100vh;
+}
+
 /* hero */
 @media screen and (max-width: 960px) {
   header {
@@ -201,12 +205,13 @@ h1 span {
   }
   .hero {
     width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column-reverse;
   }
   .hero-heading,
   .hero-image {
-    flex-basis: 45vh;
+    flex-basis: 50vh;
     background-color: #ff0000;
   }
 
