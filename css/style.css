@@ -84,6 +84,7 @@ header nav .icons {
 .hero {
   display: flex;
   width: 100%;
+  max-height: 100svh;
 }
 .hero-heading, .hero-image {
   flex-basis: 50%;
