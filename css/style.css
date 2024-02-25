@@ -208,17 +208,11 @@ box-shadow: 0px 25px 27px -12px rgba(0, 0, 0, 0.55);
       flex-direction: column-reverse;
     }
     .hero-heading, .hero-image {
-      flex-basis: 50svh;
-      /* background-color: #ff0000; */
+      flex-basis: 45vh;
     }
-    .hero-heading {
-      /* padding: 10%; */
-    }
+
     .hero-heading h1 {
       font-size: 35px;
-    }
-    .wrapper-header {
-    
     }
     .hero-heading p {
       /* background-color: rgb(100, 88, 73); */
