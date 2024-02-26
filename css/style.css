@@ -209,8 +209,9 @@ h1 span {
     display: flex;
     flex-direction: column-reverse;
   }
-  .hero-heading,
   .hero-image {
+  }
+  .hero-heading {
     flex-basis: 50vh;
   }
 
