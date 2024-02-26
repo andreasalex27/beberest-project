@@ -12,7 +12,6 @@ body {
 /* wave */
 .hero svg {
   position: absolute;
-  bottom: 0px;
   background-size: cover;
 }
 /* wave */
@@ -85,7 +84,7 @@ header nav .icons {
 }
 .hero-heading,
 .hero-image {
-  flex-basis: 50vw;
+  flex-basis: 50%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -213,9 +212,11 @@ h1 span {
     display: flex;
     flex-direction: column-reverse;
   }
-
+.hero-image {
+  
+}
 .hero-heading, .hero-image {
-  flex-basis: 50vh;
+  flex-basis: 45vh;
 }
   .hero-heading h1 {
     font-size: 35px;
