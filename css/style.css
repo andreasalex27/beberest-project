@@ -12,11 +12,10 @@ body {
 /* wave */
 .hero svg {
   position: absolute;
+  bottom: 0px;
   background-size: cover;
 }
 /* wave */
-.wrapper {
-}
 /* nav */
 header {
   position: fixed;
@@ -29,9 +28,6 @@ header {
   padding: 10px 10%;
   backdrop-filter: blur(5px);
   background-color: rgba(0, 0, 0, 0.423);
-}
-.wrapper {
-  min-height: 100vh;
 }
 nav {
   display: flex;
@@ -50,6 +46,7 @@ header nav .icons {
   position: absolute;
   right: 5%;
 }
+
 .left-nav a {
   font-size: 24px;
   font-weight: 600;
@@ -79,12 +76,13 @@ header nav .icons {
 
 /* hero */
 .hero {
+  position: relative;
   display: flex;
   width: 100%;
 }
 .hero-heading,
 .hero-image {
-  flex-basis: 50%;
+  flex-basis: 50svw;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -92,10 +90,6 @@ header nav .icons {
 }
 .hero-heading {
   padding: 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .hero-heading h1 {
   color: #f0ece5;
@@ -103,7 +97,6 @@ header nav .icons {
   line-height: 1.1em;
   display: inline;
   text-align: center;
-  /* background-color: aqua; */
 }
 h1 span {
   color: #ff0000;
@@ -115,7 +108,6 @@ h1 span {
   justify-content: center;
   padding: 0 10%;
   gap: 10px;
-  /* background-color: aqua; */
 }
 .line {
   width: 200px;
@@ -128,7 +120,7 @@ h1 span {
 }
 .hero-image {
   width: 100%;
-  height: 100vh;
+  height: 100svh;
   background-size: cover;
   object-fit: cover;
   background-position: center center;
@@ -136,7 +128,6 @@ h1 span {
 }
 .cta button {
   padding: 10px 20px;
-  /* background-color: #e89d1c; */
   font-size: 15px;
   font-weight: 500;
   border-radius: 15px;
@@ -150,16 +141,18 @@ h1 span {
 #selengkapnya {
   background-color: #f0ece5;
 }
-.cta {
+.cta { 
   width: 305px;
   display: flex;
   justify-content: space-between;
-  /* background-color: aliceblue; */
 }
 
-.content {
-  height: 100vh;
-}
+
+/* .content article {
+  background-color: #bebebe;
+  width: 100%;
+  height: 400px;
+} */
 
 /* hero */
 @media screen and (max-width: 960px) {
@@ -203,26 +196,26 @@ h1 span {
     display: inline-flex;
   }
   .wrapper {
+
     display: flex;
     flex-direction: column;
+    background-color: #ff0000;
   }
   .hero {
+    position: relative;
     width: 100%;
-    height: auto;
     display: flex;
     flex-direction: column-reverse;
   }
-.hero-image {
-  
-}
-.hero-heading, .hero-image {
-  flex-basis: 45vh;
-}
+  .hero-heading,
+  .hero-image {
+    flex-basis: 50svh;
+  }
+
   .hero-heading h1 {
     font-size: 35px;
   }
   .hero-heading p {
-    /* background-color: rgb(100, 88, 73); */
     font-size: 14px;
     text-align: justify;
   }
