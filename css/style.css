@@ -143,7 +143,7 @@ h1 span {
   color: #161a30;
   cursor: pointer;
 }
-.cta #selengkapnya {
+#selengkapnya {
   background-color: #f0ece5;
   color: #161a30;
   cursor: pointer;
@@ -152,7 +152,7 @@ h1 span {
   background-color: #e89d1c;
   color: #f0ece5;
 }
-#selengkapnya:hover, #hub {
+#selengkapnya:hover, #hub:hover {
   transform: scale(1.1);
   transition: .3s ease-in-out;
 }
