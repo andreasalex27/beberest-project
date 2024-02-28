@@ -131,21 +131,30 @@ h1 span {
   background-image: url("../assets/img/maid1.jpg");
 }
 .cta button {
+  margin-top: 20px;
+}
+#hub {
+  background-color: #e89d1c;
+  color: #161a30;
   padding: 10px 20px;
   font-size: 15px;
   font-weight: 500;
   border-radius: 15px;
   border: none;
-  margin-top: 20px;
-}
-.cta #hub {
-  background-color: #e89d1c;
-  color: #161a30;
   cursor: pointer;
+}
+#hub:hover {
+  background-color: #f0ece5;
+  color: #161a30;
 }
 #selengkapnya {
   background-color: #f0ece5;
   color: #161a30;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 15px;
+  border: none;
   cursor: pointer;
 }
 #selengkapnya:hover {
