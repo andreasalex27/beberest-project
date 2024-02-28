@@ -138,15 +138,21 @@ h1 span {
   border: none;
   margin-top: 20px;
 }
-#hub {
+.cta #hub {
   background-color: #e89d1c;
   color: #161a30;
+  cursor: pointer;
 }
-#selengkapnya {
+.cta #selengkapnya {
   background-color: #f0ece5;
+  color: #161a30;
   cursor: pointer;
 }
 #selengkapnya:hover {
+  background-color: #e89d1c;
+  color: #f0ece5;
+}
+#selengkapnya:hover, #hub {
   transform: scale(1.1);
   transition: .3s ease-in-out;
 }
