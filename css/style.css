@@ -221,14 +221,12 @@ article {
   background-color: #f0ece5;
   border-radius: 5px 5px 30px 5px;
   display: flex;
-  /* position: relative; */
 }
 .article-content i {
   position: absolute;
-
   background-color: #000311;
   padding: 5px;
-  border-radius: 0 0 5px 0;
+  border-radius: 5px;
   left: -15px;
   top: -15px;
   color: #f0ece5;
@@ -312,10 +310,87 @@ footer {
   flex-direction: column;
 }
 .box-footer {
-  border-bottom: solid 2px #f0ece5 ;
+  padding: 0 10%;
+  align-items: center;
+  display: flex;
   width: 100%;
-  height: 150px;
+  height: 100px;
   background-color: #101010;
+}
+.start-footer {
+  background-color: #101010;
+  width: 100%;
+  height: 100px;
+}
+.start-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.start-footer .start-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.start-wrapper i, .start-wrapper #brand {
+  color: #f0ece5;
+  font-size: 40px;
+}
+.center-footer {
+  display: flex;
+  justify-content: center;
+}
+.center-footer ul {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.center-footer ul li a {
+  color: #f0ece5;
+  font-size: 20px;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+.end-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.sosmed ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.sosmed ul li a {
+  font-size: 30px;
+  color: #f0ece5;
+}
+.cr-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.cr i, .cr span {
+  color: #f0ece5;
+  font-size: 15px;
+}
+.lokasi-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.lokasi-wrapper span, .lokasi-wrapper p {
+  color: #f0ece5;
+  font-size: 25;
 }
 
 @media screen and (max-width: 960px) {
