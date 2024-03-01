@@ -87,7 +87,7 @@ header nav .icons {
   font-weight: 500;
   padding: 8px 24px;
   border-radius: 10px;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 /* nav */
 
@@ -155,7 +155,7 @@ h1 span {
   border-radius: 15px;
   border: none;
   cursor: pointer;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 #hub:hover {
   background-color: #f0ece5;
@@ -170,16 +170,17 @@ h1 span {
   border-radius: 15px;
   border: none;
   cursor: pointer;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 #selengkapnya:hover {
   background-color: #e89d1c;
   color: #f0ece5;
 }
-#selengkapnya:hover, #hub:hover {
+#selengkapnya:hover,
+#hub:hover {
   transform: scale(1.1);
 }
-.cta { 
+.cta {
   width: 310px;
   display: flex;
   justify-content: space-between;
@@ -230,14 +231,14 @@ article {
   left: -15px;
   top: -15px;
   color: #f0ece5;
-  font-size: 30px;  
-
+  font-size: 30px;
 }
 article:hover {
   transform: scale(1.1);
   transition: 0.3s ease-in-out;
 }
-.heading-content u, .slider-title u {
+.heading-content u,
+.slider-title u {
   border-radius: 5px;
   margin-top: 5px;
   width: 100px;
@@ -257,7 +258,7 @@ article img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 5%
+  padding: 5%;
 }
 .article-content u {
   background-color: #e89d1c;
@@ -266,14 +267,14 @@ article img {
   border-radius: 5px;
   margin: 5px 0;
 }
-.article-content h3{
+.article-content h3 {
   font-size: 18px;
 }
 .article-content p {
   font-size: 13px;
 }
 
-aside {
+#side-cta {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -284,7 +285,7 @@ aside {
   transform: translateY(-50%);
   z-index: 999;
 }
-aside ul {
+#side-cta ul {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -295,12 +296,12 @@ aside ul {
   border-radius: 0 10px 10px 0;
 }
 
-aside ul li a i {
+#side-cta ul li a i {
   color: #161a30;
   font-size: 30px;
   transition: all 0.3s ease-in-out;
 }
-aside ul li a i:hover {
+#side-cta ul li a i:hover {
   transform: scale(1.3);
   color: #f0ece5;
 }
@@ -332,7 +333,8 @@ footer {
   justify-content: center;
   gap: 10px;
 }
-.start-wrapper i, .start-wrapper #brand {
+.start-wrapper i,
+.start-wrapper #brand {
   color: #f0ece5;
   font-size: 40px;
 }
@@ -377,7 +379,8 @@ footer {
   align-items: center;
   gap: 10px;
 }
-.cr i, .cr span {
+.cr i,
+.cr span {
   color: #f0ece5;
   font-size: 15px;
 }
@@ -386,7 +389,8 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 10px;
-}.lokasi-wrapper i {
+}
+.lokasi-wrapper i {
   color: #f0ece5;
   font-size: 25px;
 }
@@ -403,7 +407,6 @@ footer {
   align-items: center;
   background-color: #f0ece5;
   padding: 0 0 5% 0;
-  
 }
 .slider-title {
   justify-content: center;
@@ -424,10 +427,9 @@ footer {
   width: 300px;
   border-radius: 20px;
   background-color: #00031100;
-  box-shadow: 5px 5px 19px 1px rgba(0,0,0,0.75);
-  -webkit-box-shadow: 5px 5px 19px 1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 5px 5px 19px 1px rgba(0,0,0,0.75);
-  
+  box-shadow: 5px 5px 19px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 5px 19px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 19px 1px rgba(0, 0, 0, 0.75);
 }
 
 .slides-container {
@@ -467,7 +469,6 @@ footer {
 #slide-arrow-prev {
   left: 0;
   border-radius: 0 2rem 2rem 0;
-
 }
 
 #slide-arrow-next {
@@ -519,7 +520,8 @@ footer {
   width: 100%;
   height: 50%;
 }
-.content-slide span, .content-slide h2 {
+.content-slide span,
+.content-slide h2 {
   color: #f0ece5;
 }
 @media screen and (max-width: 960px) {
@@ -537,7 +539,8 @@ footer {
     background-color: #161a30;
     justify-content: center;
   }
-  .start-wrapper i, .start-wrapper #brand {
+  .start-wrapper i,
+  .start-wrapper #brand {
     font-size: 30px;
   }
   .center-footer ul {
@@ -549,7 +552,6 @@ footer {
   }
 }
 @media screen and (max-width: 600px) {
- 
   .right-nav ul {
     top: 100%;
     left: 0;
@@ -585,7 +587,6 @@ footer {
     display: inline-flex;
   }
   .wrapper {
-
     display: flex;
     flex-direction: column;
   }
@@ -610,7 +611,8 @@ footer {
   .cta {
     width: 280px;
   }
-  #hub, #selengkapnya {
+  #hub,
+  #selengkapnya {
     font-size: 13px;
   }
   .wrapper-article {
@@ -623,7 +625,8 @@ footer {
   .heading-content u {
     width: 70px;
   }
-  .lokasi-wrapper span, .lokasi-wrapper p {
+  .lokasi-wrapper span,
+  .lokasi-wrapper p {
     font-size: 14px;
   }
   .center-footer ul li a {
@@ -634,7 +637,8 @@ footer {
     flex-direction: column;
     gap: 10px;
   }
-  .cr-wrapper .cr i, .cr-wrapper .cr span {
+  .cr-wrapper .cr i,
+  .cr-wrapper .cr span {
     font-size: 14px;
   }
   .slider-wrapper {
