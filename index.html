@@ -16,7 +16,6 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap"
       rel="stylesheet" />
-    <script src="/js/script.js"></script>
   </head>
   <body>
     <header>
@@ -34,15 +33,15 @@
 
         <div class="right-nav">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">Profile</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#profile">Profile</a></li>
           </ul>
         </div>
       </nav>
     </header>
     <main>
-      <div class="wrapper">
+      <div id="home" class="wrapper">
         <div class="hero">
           <div class="hero-heading">
             <div class="wrapper-header">
@@ -54,8 +53,8 @@
               </p>
             </div>
             <div class="cta">
-              <button id="selengkapnya"><a>Selengkapnya</a></button>
-              <button id="hub">Hubungi Kami</button>
+              <a href='#product' id="selengkapnya">Selengkapnya</a>
+              <a href="#footer" id="hub">Hubungi Kami</a>
             </div>
           </div>
           <div class="hero-image"></div>
@@ -79,7 +78,7 @@
         </div>
       </div>
 
-      <div class="content">
+      <div id="product" class="content">
         <div class="heading-content">
           <h1>PELAYANAN KAMI</h1>
           <u></u>
@@ -141,18 +140,98 @@
       <aside id="side-cta">
         <ul>
           <li>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.instagram.com/albertmuntheee/"><i class="fa-brands fa-instagram"></i></a>
           </li>
           <li>
-            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/albertmuntheee/"><i class="fa-brands fa-whatsapp"></i></a>
           </li>
           <li>
-            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/albertmuntheee/"><i class="fa-brands fa-x-twitter"></i></a>
           </li>
         </ul>
       </aside>
     </main>
-    <footer>
+
+    <div id="profile" class="container-slider">
+
+      <div class="slider-title">
+        <h3>PROFIL KAMI</h3>
+        <u></u>
+      </div>
+      <section class="slider-wrapper">
+        <button class="slide-arrow" id="slide-arrow-prev">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <button class="slide-arrow" id="slide-arrow-next">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <ul class="slides-container" id="slides-container">
+          
+          <li class="slide">
+            <div class="slide-profile">
+              <div class="header-slide">
+                <div class="profile-image">
+                  <img src="./assets/img/andreas-alex-topi.jpeg" alt="" srcset="">
+                </div>
+              </div>
+
+              <div class="content-slide">
+                <h2>Andreas Alex</h2>
+                <span>Web Developer</span>
+              </div>
+            </div>
+          </li>
+          
+                    <li class="slide">
+            <div class="slide-profile">
+              <div class="header-slide">
+                <div class="profile-image">
+                  <img src="./assets/img/winter.jpg" alt="" srcset="">
+                </div>
+              </div>
+
+              <div class="content-slide">
+                <h2>Winter</h2>
+                <span>QA</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="slide">
+            <div class="slide-profile">
+              <div class="header-slide">
+                <div class="profile-image">
+                  <img src="./assets/img/avatar-2.jpg" alt="" srcset="">
+                </div>
+              </div>
+
+              <div class="content-slide">
+                <h2>Jamal Udin</h2>
+                <span>Tech Support</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="slide">
+            <div class="slide-profile">
+              <div class="header-slide">
+                <div class="profile-image">
+                  <img src="./assets/img/avatar-3.jpg" alt="" srcset="">
+                </div>
+              </div>
+
+              <div class="content-slide">
+                <h2>Kevin Syco</h2>
+                <span>Marketing</span>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </section>
+    </div>
+
+    <footer id="footer">
       <div class="box-footer start-footer">
         <div class="start-wrapper">
           <i class="fa-brands fa-digital-ocean"></i>
@@ -161,39 +240,42 @@
       </div>
       <div class="box-footer center-footer">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">Profile</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#profile">Profile</a></li>
         </ul>
       </div>
       <div class="box-footer end-footer">
         <div class="sosmed">
           <ul>
             <li>
-              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.instagram.com/albertmuntheee/"><i class="fa-brands fa-instagram"></i></a>
             </li>
             <li>
-              <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="https://www.instagram.com/albertmuntheee/"><i class="fa-brands fa-whatsapp"></i></a>
             </li>
             <li>
-              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="https://www.instagram.com/albertmuntheee/"><i class="fa-brands fa-x-twitter"></i></a>
             </li>
           </ul>
         </div>
         <div class="lokasi">
           <div class="lokasi-wrapper">
-            <span>Lokasi :</span>
-            <p>Jl. Setiabudi no 27<br>Kec. Bubbleland, Kab. Bekasi<br>17901</p>
+            <i class="fa-solid fa-location-dot"></i>
+            <p>
+              Jl. Setiabudi no 27<br />Kec. Bubbleland, Kab. Bekasi<br />17901
+            </p>
           </div>
         </div>
       </div>
       <div class="box-footer cr-wrapper">
-        
         <div class="cr">
           <i class="fa-regular fa-copyright"></i>
           <span>2024 Beberest | All Rights Reserved</span>
-      </div>
+        </div>
       </div>
     </footer>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>
