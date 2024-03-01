@@ -90,7 +90,9 @@ header nav .icons {
   transition: 0.3s ease-in-out;
 }
 /* nav */
-
+/* main {
+  display: flex;
+} */
 /* hero */
 .hero {
   position: relative;
